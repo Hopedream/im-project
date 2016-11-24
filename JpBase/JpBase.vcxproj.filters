@@ -48,6 +48,12 @@
     <ClInclude Include="JPNotifyHandle.h">
       <Filter>头文件\BaseInterface</Filter>
     </ClInclude>
+    <ClInclude Include="JPRegisterUI.h">
+      <Filter>头文件\BaseInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="JPBuilderCallback.h">
+      <Filter>头文件\BaseInterface</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -58,6 +64,12 @@
     </ClCompile>
     <ClCompile Include="JPUtils.cpp">
       <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JPRegisterUI.cpp">
+      <Filter>源文件\BaseInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="JPBuilderCallback.cpp">
+      <Filter>源文件\BaseInterface</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

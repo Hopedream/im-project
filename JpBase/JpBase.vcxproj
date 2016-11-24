@@ -19,7 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v100</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -85,7 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="jp.h" />
+    <ClInclude Include="JPBuilderCallback.h" />
     <ClInclude Include="JPNotifyHandle.h" />
+    <ClInclude Include="JPRegisterUI.h" />
     <ClInclude Include="JpStrHelper.h" />
     <ClInclude Include="JPUtils.h" />
     <ClInclude Include="stdafx.h" />
@@ -100,6 +102,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
       </PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="JPBuilderCallback.cpp" />
+    <ClCompile Include="JPRegisterUI.cpp" />
     <ClCompile Include="JPUtils.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

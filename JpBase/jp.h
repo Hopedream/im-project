@@ -29,5 +29,7 @@ using namespace DuiLib;
 #include "JPUtils.h"
 #include "JpStrHelper.h"
 #include "JPNotifyHandle.h"
+#include "JPBuilderCallback.h"
+#include "JPRegisterUI.h"
 
 #endif 
